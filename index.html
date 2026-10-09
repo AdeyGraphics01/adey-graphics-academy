@@ -1,128 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adey Graphics Academy</title>
+<!-- ABOUT THE FOUNDER -->
+<section id="about" class="founder">
+    <h2>ABOUT THE FOUNDER</h2>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: white;
-            text-align: center;
-        }
+    <div class="founder-content">
 
-        header {
-            background: #000;
-            padding: 25px 10px;
-            border-bottom: 3px solid gold;
-        }
+        <!-- Your picture will go here -->
+        <img src="my-picture.jpg"
+             alt="Adey Graphics"
+             class="founder-photo">
 
-        h1 {
-            color: gold;
-        }
+        <div class="founder-text">
+            <h1>ADEY GRAPHICS</h1>
+            <h3>Founder & Graphic Designer</h3>
 
-        nav {
-            padding: 15px;
-            background: #222;
-        }
+            <p>
+                Hello! I'm Adey, the founder of Adey Graphics Academy.
+                I'm passionate about graphic design and helping beginners
+                learn how to create beautiful designs.
+            </p>
 
-        nav a {
-            color: gold;
-            text-decoration: none;
-            margin: 10px;
-        }
+            <p>
+                My goal is to make graphic design simple, practical,
+                and easy to understand for everyone.
+            </p>
 
-        section {
-            padding: 25px 15px;
-        }
+            <h3>What You Will Learn</h3>
+            <p>Logo Design • Flyer Design • Poster Design</p>
+        </div>
 
-        .card {
-            background: #222;
-            border: 1px solid gold;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 15px auto;
-            max-width: 400px;
-        }
-
-        .button {
-            display: inline-block;
-            background: gold;
-            color: black;
-            padding: 12px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        footer {
-            background: #000;
-            padding: 20px;
-            color: gold;
-        }
-    </style>
-</head>
-
-<body>
-
-<header>
-    <h1>ADEY GRAPHICS ACADEMY</h1>
-    <p>Learn Graphic Design from the Beginning</p>
-</header>
-
-<nav>
-    <a href="#home">Home</a>
-    <a href="#lessons">Lessons</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="home">
-    <h2>Welcome to Adey Graphics Academy!</h2>
-    <p>Learn how to create beautiful designs, even as a beginner.</p>
-</section>
-
-<section id="lessons">
-    <h2>Our Graphic Design Lessons</h2>
-
-    <div class="card">
-        <h3>Logo Design</h3>
-        <p>Learn the basics of creating professional logos.</p>
-    </div>
-
-    <div class="card">
-        <h3>Birthday Flyer Design</h3>
-        <p>Learn how to create attractive birthday flyers.</p>
-    </div>
-
-    <div class="card">
-        <h3>Poster Design</h3>
-        <p>Learn how to design eye-catching posters.</p>
-    </div>
-
-    <div class="card">
-        <h3>Campaign Flyer Design</h3>
-        <p>Learn how to create campaign and promotional flyers.</p>
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Adey Graphics Academy</h2>
-    <p>Contact us on WhatsApp to learn more.</p>
+<style>
+.founder {
+    background: #080808;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
 
-    <a class="button"
-       href="https://wa.me/2347082082831"
-       target="_blank">
-       Chat on WhatsApp
-    </a>
-</section>
+.founder h2,
+.founder h1 {
+    color: gold;
+}
 
-<footer>
-    <p>© 2026 Adey Graphics Academy</p>
-    <p>Creativity • Skills • Excellence</p>
-</footer>
+.founder-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    max-width: 900px;
+    margin: 25px auto;
+    flex-wrap: wrap;
+}
 
-</body>
-          </html>
+.founder-photo {
+    width: 260px;
+    max-width: 100%;
+    border: 3px solid gold;
+    border-radius: 12px;
+}
+
+.founder-text {
+    max-width: 450px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.founder-text h3 {
+    color: gold;
+}
+
+@media (max-width: 600px) {
+    .founder-text {
+        text-align: center;
+    }
+}
+</style>
